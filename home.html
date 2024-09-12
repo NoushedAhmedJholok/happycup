@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>Jholok - Home</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+
+  </head>
+
+<body>
+
+   
+  <!--header-->
+  <div class="topBarandmanu">
+    <section id="tobar">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="d-flex">
+              <a href="#" class="text-white mr-5">marclean Sign </a>
+              <a href="#" class="text-white mr-5">01765555555</a>
+            </div>
+          </div>
+        </div>
+      </div>
+   </section>
+   <header class="main-header clearfix" role="header">
+   
+    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+    <a href="#menu" class="menu-link2"><i class="fa fa-user"></i></a>
+    <div class="logo">
+      <a href="home.html"><em>Happy</em>Cup </a>
+    </div>
+    <nav id="menu" class="main-nav" role="navigation">
+      <ul class="main-menu">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="index.html">Review</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="list.html">Winner</a></li>
+      </ul>
+  </nav>
+    
+    
+  </header>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const navLinks = document.querySelectorAll('#menu .main-menu a');
+    
+        navLinks.forEach(function(link) {
+            link.addEventListener('click', function(event) {
+                const href = this.getAttribute('href');
+                if (href && !href.startsWith('#')) {
+                    window.location.href = href;
+                } else {
+                    event.preventDefault();
+                }
+            });
+        });
+    });
+    </script>
+
+  <!-- ***** Main Banner Area Start ***** -->
+  <section id="banner_bnner">
+    <div class="container">
+      <div class="col-lg-12 pl-0 pr-0">
+        <div class="banner_card">
+          <div class="row">
+            <div class="col-lg-4 col-4" style="text-align: center;">
+              <img class="w-100" src="assets/images/mobile.png" alt="img">
+              <h5 class="text-white">Mobile Name</h5>
+            </div>
+            <div class="col-lg-4 col-4" style="text-align: center;">
+              <img class="w-100" src="assets/images/mobile.png" alt="img">
+              <h5 class="text-white">Mobile Name</h5>
+            </div>
+            <div class="col-lg-4 col-4" style="text-align: center;">
+              <img class="w-100" src="assets/images/mobile.png" alt="img">
+              <h5 class="text-white">Mobile Name</h5>
+            </div>
+          </div>
+          <div class="col-12 text-center">
+            <h5 class="text-danger mb-0 mt-3">Lorem ipsum dolor sit amet.</h5>
+            <div id="countdown" class="d-flex justify-content-center count_box ">
+              <div class="count_number"><span id="days"></span> <p>Days</p></div>
+              <div class="count_number"><span id="hours"></span> <p>Hours</p></div>
+              <div class="count_number"><span id="minutes"></span> <p>Minutes</p></div>
+              <div class="count_number"><span id="seconds"></span> <p>Seconds</p></div>
+            </div>
+            <script>
+              // Set the target date
+              const targetDate = new Date("January 1, 2025 00:00:00").getTime();
+            </script>
+            <button class="btn btn-light w-50 m-auto mt-2 mb-2">submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Main Banner Area End ***** -->
+   <!-- ======= Categories  -->
+  <div class="categoriesss">
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-12">
+              <div class="top_title mt-3 text-center">
+                  <h6 class="mb-3 text-white">Stock Clearance Sale</h6>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-6 col-4">
+              <div class="top_title text-start pt-3">
+                  <h6 class="text-white ghfvhfg">Book Yours</h6>
+              </div>
+          </div>
+          <div class="col-lg-6 col-8">
+              <div class="top_title text-end">
+                <div id="timer" class="d-flex justify-content-center">
+                  <div class="secend_count"><span id="dayCount"></span> <p>Days</p></div>
+                  <div class="secend_count"><span id="hourCount"></span> <p>Hours</p></div>
+                  <div class="secend_count"><span id="minuteCount"></span> <p>Minutes</p></div>
+                  <div class="secend_count"><span id="secondCount"></span> <p>Seconds</p></div>
+              </div>
+              </div>
+              <script>
+                // Set the target date
+                    const endDate = new Date("January 1, 2025 00:00:00").getTime();
+              </script>
+          </div>
+      </div>
+     </div>
+    <section id="categories_area" class="pb-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-3 col-lg-3 mt-2">
+                  <a href="#" class="category_card text-center">
+                      <div class="category_box position-relative" style="background-color: #DC9497;">
+                          <img class="w-50" src="assets/icons/child.png" alt="icons">
+                          <div class="mark_box"></div>
+                      </div>
+                      <p>History</p>
+                  </a>
+              </div>
+              <div class="col-3 col-lg-3 mt-2">
+                <a href="#" class="category_card text-center">
+                    <div class="category_box position-relative" style="background-color: #DC9497;">
+                        <img class="w-50" src="assets/icons/child.png" alt="icons">
+                        <div class="mark_box"></div>
+                    </div>
+                    <p>History</p>
+                </a>
+            </div>
+            <div class="col-3 col-lg-3 mt-2">
+              <a href="#" class="category_card text-center">
+                  <div class="category_box position-relative" style="background-color: #DC9497;">
+                      <img class="w-50" src="assets/icons/child.png" alt="icons">
+                      <div class="mark_box"></div>
+                  </div>
+                  <p>History</p>
+              </a>
+          </div>
+          <div class="col-3 col-lg-3 mt-2">
+            <a href="#" class="category_card text-center">
+                <div class="category_box position-relative" style="background-color: #DC9497;">
+                    <img class="w-50" src="assets/icons/child.png" alt="icons">
+                    <div class="mark_box"></div>
+                </div>
+                <p>History</p>
+            </a>
+        </div>
+        <div class="col-3 col-lg-3 mt-2">
+          <a href="#" class="category_card text-center">
+              <div class="category_box position-relative" style="background-color: #DC9497;">
+                  <img class="w-50" src="assets/icons/child.png" alt="icons">
+                  <div class="mark_box"></div>
+              </div>
+              <p>History</p>
+          </a>
+      </div>
+      <div class="col-3 col-lg-3 mt-2">
+        <a href="#" class="category_card text-center">
+            <div class="category_box position-relative" style="background-color: #DC9497;">
+                <img class="w-50" src="assets/icons/child.png" alt="icons">
+                <div class="mark_box"></div>
+            </div>
+            <p>History</p>
+        </a>
+    </div>
+    <div class="col-3 col-lg-3 mt-2">
+      <a href="#" class="category_card text-center">
+          <div class="category_box position-relative" style="background-color: #DC9497;">
+              <img class="w-50" src="assets/icons/child.png" alt="icons">
+              <div class="mark_box"></div>
+          </div>
+          <p>History</p>
+      </a>
+  </div>
+  <div class="col-3 col-lg-3 mt-2">
+    <a href="#" class="category_card text-center">
+        <div class="category_box position-relative" style="background-color: #DC9497;">
+            <img class="w-50" src="assets/icons/child.png" alt="icons">
+            <div class="mark_box"></div>
+        </div>
+        <p>History</p>
+    </a>
+</div>
+          </div>
+      </div>
+    </section>
+  </div>
+
+
+
+
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info" style="text-align: start;">
+              <h3>Logo Here</h3>
+              <p>
+                address text <br>
+                ABC 535022, BD<br><br>
+                <strong>Phone:</strong> +000000000<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
+              <div class="social-links d-flex mt-3">
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="fa fa-instagram"></i></a>
+                <a href="#" class="d-flex align-items-center justify-content-center"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End footer info column-->
+
+          <div class="col-lg-4 col-md-3 footer-links col-5" style="text-align: start;">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="service.html">Services</a></li>
+              <li><a href="list.html">Winner</a></li>
+              <li><a href="index.html">Review</a></li>
+            </ul>
+          </div><!-- End footer links column-->
+
+
+          <div class="col-lg-4 col-md-3 footer-links col-7" style="text-align: start;">
+            <h4>Hic solutasetp</h4>
+            <ul>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">Suscipit distinctio</a></li>
+              <li><a href="#">Dilecta</a></li>
+              <li><a href="#">Sit quas consectetur</a></li>
+            </ul>
+          </div><!-- End footer links column-->
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span> Jholok</span></strong>. All Rights Reserved
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <!-- End Footer -->
+  <nav class="kkkk">
+    <div class="nav-box">
+      <ul class="nav-container">
+        <li class="nav__item active">
+          <a href="home.html" class="nav__item-link">
+            <div class="nav__item-icon">
+              <i class="fa fa-home"></i>
+            </div>
+            <span class="nav__item-text">Home</span>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="index.html" class="nav__item-link">
+            <div class="nav__item-icon">
+              <i class="fa fa-user"></i>
+            </div>
+            <span class="nav__item-text">Profile</span>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="list.html" class="nav__item-link">
+            <div class="nav__item-icon">
+              <i class="fa fa-cog"></i>
+            </div>
+            <span class="nav__item-text">Winner</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js//slick.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
+          if($(e.target).hasClass('external')) {
+            return;
+          }
+          e.preventDefault();
+          $('#menu').removeClass('active');
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+
+
+
+        window.onscroll = function() {fixNavbar()};
+        $(window).scroll(function () {
+          checkSection();
+        });
+        function fixNavbar() {
+    var navbar = document.querySelector(".main-header");
+    if (window.pageYOffset >= 300) {
+        navbar.classList.add("fixed");
+    } else {
+        navbar.classList.remove("fixed");
+    }
+  }
+    </script>
+</body>
+</html>
