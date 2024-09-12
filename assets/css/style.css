@@ -1625,3 +1625,10 @@ color: #000;
 .box .dvrecords .records{
 margin-right: 5px;
 }
+.slick-list{
+  width: 100% !important;
+}
+.main-header {
+  top: 0px !important;
+  height: 83px;
+}

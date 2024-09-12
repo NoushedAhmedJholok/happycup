@@ -1166,12 +1166,10 @@ footer p a:hover {
 	z-index: 9;
 	text-decoration: none;
 }
-
-.main-header{
-  /* position: relative !important; */
-  top: 25px !important;
-  
-  height: 80px;
+.main-header {
+	/* position: relative !important; */
+	top: 0px !important;
+	height: 90px;
 }
 .fixed{
   position: fixed !important;
@@ -1258,7 +1256,7 @@ footer p a:hover {
     height: 55vh;
   }
   .main-banner .caption {
-    top: 40%;
+    top: 23% !important;
   }
   .main-header .logo a {
     font-size: 24px;
